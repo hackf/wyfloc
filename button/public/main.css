@@ -1,0 +1,81 @@
+/***************************************************
+                 )   (      (         )
+   (  (       ( /(   )\ )   )\ )   ( /(      (
+   )\))(   '  )\()) (()/(  (()/(   )\())     )\
+  ((_)()\ )  ((_)\   /(_))  /(_)) ((_)\    (((_)
+  _(())\_)()__ ((_) (_))_| (_))     ((_)   )\___
+  \ \((_)/ /\ \ / / | |_   | |     / _ \  ((/ __|
+   \ \/\/ /  \ V /  | __|  | |__  | (_) |  | (__
+    \_/\_/    |_|   |_|    |____|  \___/    \___|
+
+
+    Main CSS File
+    =============
+
+    Contains bootstrap css code.
+
+***************************************************/
+
+
+/***************************************************
+    Write your css above this line! :D
+***************************************************/
+
+.content {
+  width: 800px;
+}
+
+.center {
+  margin: 0 auto;
+}
+
+pre.logo {
+  width: 364px;
+  font-weight: bold;
+}
+
+pre.logo.black {
+  color: #000000;
+}
+
+pre.logo.dark-red {
+  color: #B80000;
+}
+
+pre.logo.orange {
+  color: #CF5700;
+}
+
+pre.logo.light-orange {
+  color: #E49B00;
+}
+
+pre.logo.dark-yellow {
+  color: #F4D400;
+}
+
+.red-button {
+  display:block;
+  width:75px;
+  height:75px;
+  line-height:75px;
+  border: 2px solid #f5f5f5;
+  border-radius: 50%;
+  color:#f5f5f5;
+  text-align:center;
+  text-decoration:none;
+  background: #e01102;
+  box-shadow: 0 0 3px gray;
+  font-size:20px;
+  font-weight:bold;
+  background: -moz-radial-gradient(center, ellipse cover, #e00408 0%, #8f0222 49%, #6d0019 100%);
+  background: -webkit-radial-gradient(center, ellipse cover, #e00408 0%,#8f0222 49%,#6d0019 100%);
+  background: radial-gradient(ellipse at center, #e00408 0%,#8f0222 49%,#6d0019 100%);
+  margin-top: 10px;
+}
+
+.red-button:hover {
+  background: -moz-radial-gradient(center, ellipse cover, #c60003 0%, #c60003 55%, #6d0019 100%);
+  background: -webkit-radial-gradient(center, ellipse cover, #c60003 0%,#c60003 55%,#6d0019 100%);
+  background: radial-gradient(ellipse at center, #c60003 0%,#c60003 55%,#6d0019 100%);
+}
