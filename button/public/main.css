@@ -29,6 +29,20 @@
   margin: 0 auto;
 }
 
+.play-ground {
+  margin-top: 10px;
+  position: relative;
+  width: 100%;
+  min-height: 500px;
+  background-color: #EFEFEF;
+}
+
+.play-ground img.cat {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
 pre.logo {
   width: 364px;
   font-weight: bold;
@@ -54,8 +68,12 @@ pre.logo.dark-yellow {
   color: #F4D400;
 }
 
-.red-button {
-  display:block;
+.buttons {
+  width: 163px;
+}
+
+a.button {
+  display:inline-block;
   width:75px;
   height:75px;
   line-height:75px;
@@ -68,14 +86,30 @@ pre.logo.dark-yellow {
   box-shadow: 0 0 3px gray;
   font-size:20px;
   font-weight:bold;
-  background: -moz-radial-gradient(center, ellipse cover, #e00408 0%, #8f0222 49%, #6d0019 100%);
-  background: -webkit-radial-gradient(center, ellipse cover, #e00408 0%,#8f0222 49%,#6d0019 100%);
-  background: radial-gradient(ellipse at center, #e00408 0%,#8f0222 49%,#6d0019 100%);
   margin-top: 10px;
 }
 
-.red-button:hover {
+a.red {
+  background: -moz-radial-gradient(center, ellipse cover, #e00408 0%, #8f0222 49%, #6d0019 100%);
+  background: -webkit-radial-gradient(center, ellipse cover, #e00408 0%,#8f0222 49%,#6d0019 100%);
+  background: radial-gradient(ellipse at center, #e00408 0%,#8f0222 49%,#6d0019 100%);
+}
+
+a.red:hover {
   background: -moz-radial-gradient(center, ellipse cover, #c60003 0%, #c60003 55%, #6d0019 100%);
   background: -webkit-radial-gradient(center, ellipse cover, #c60003 0%,#c60003 55%,#6d0019 100%);
   background: radial-gradient(ellipse at center, #c60003 0%,#c60003 55%,#6d0019 100%);
+}
+
+a.party {
+  font-size: 15px;
+  background: -moz-radial-gradient(center, ellipse cover, #ff00dc 0%, #db00d7 49%, #a900d3 100%);
+  background: -webkit-radial-gradient(center, ellipse cover, #ff00dc 0%,#db00d7 49%,#a900d3 100%);
+  background: radial-gradient(ellipse at center, #ff00dc 0%,#db00d7 49%,#a900d3 100%);
+}
+
+a.party:hover {
+  background: -moz-radial-gradient(center, ellipse cover, #19ff00 0%, #09c100 55%, #0c4900 100%);
+  background: -webkit-radial-gradient(center, ellipse cover, #19ff00 0%,#09c100 55%,#0c4900 100%);
+  background: radial-gradient(ellipse at center, #19ff00 0%,#09c100 55%,#0c4900 100%);
 }
