@@ -111,7 +111,7 @@ redButton.addEventListener('click', function clickHandler (event) {
     var catImage = document.querySelector('.cat');
 
     catImage.style['transform'] = 'rotate(' + this._rotateDeg + 'deg)';
-    this._rotateDeg += 5;
+    this._rotateDeg += 1;
     
     // We don't want our number to get too big! Since we only care about 360
     // degs we'll cap it at that. Note that 0 and 360 degs are the same
